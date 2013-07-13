@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Mystery_Campaign-1.12\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2013-05-21 23:08-0400\n"
+"POT-Creation-Date: 2013-07-13 11:29-0400\n"
 "PO-Revision-Date: 2012-10-13 04:23+0200\n"
 "Last-Translator: Automatically generated\n"
 "Language-Team: none\n"
@@ -60,6 +60,11 @@ msgid ""
 "increasing difficult in various ways. How many scenarios can you complete?"
 msgstr ""
 
+#. [era]: id=era_extended
+#: Mystery_Campaign/_main.cfg:94
+msgid "Extended Era"
+msgstr ""
+
 #. [about]
 #: Mystery_Campaign/credits.cfg:6
 msgid "Campaign Design"
@@ -83,11 +88,6 @@ msgstr ""
 #. [about]
 #: Mystery_Campaign/credits.cfg:39
 msgid "Translations"
-msgstr ""
-
-#. [era]: id=era_extended
-#: Mystery_Campaign/era.cfg:5
-msgid "Extended Era"
 msgstr ""
 
 #. [multiplayer_side]: id=aragwaithi, type=random
@@ -813,8 +813,8 @@ msgstr ""
 #. [petrifies]: id=escape
 #: Mystery_Campaign/units/aragwaithi/Aragwaith_Eagle_Master.cfg:37
 #: Mystery_Campaign/units/aragwaithi/Aragwaith_Eagle_Rider.cfg:34
-#: Mystery_Campaign/utils/abilities.cfg:255
-#: Mystery_Campaign/utils/abilities.cfg:256
+#: Mystery_Campaign/utils/abilities.cfg:240
+#: Mystery_Campaign/utils/abilities.cfg:241
 msgid "prey crush"
 msgstr ""
 
@@ -1083,7 +1083,7 @@ msgid ""
 "Sorceress."
 msgstr ""
 
-#. [attack]: type=fire
+#. [attack]: type=cold
 #: Mystery_Campaign/units/dark_elves/l1_Enchantress.cfg:31
 #: Mystery_Campaign/units/dark_elves/l2_Sorceress.cfg:34
 #: Mystery_Campaign/units/dark_elves/l3_Cleric.cfg:35
@@ -2518,11 +2518,9 @@ msgid "Naga Assassin"
 msgstr ""
 
 #. [unit_type]: id=EE Naga Assassin, race=naga
-#. [unit_type]: id=EE Naga Hunter, race=naga
 #: Mystery_Campaign/units/nagas/Naga_Assassin.cfg:20
-#: Mystery_Campaign/units/nagas/Naga_Hunter.cfg:19
 msgid ""
-"Naga Hunters are Naga who are skilled at hunting with a bow. Since the naga "
+"Naga assassin are Naga who are skilled at hunting with a bow. Since the naga "
 "are naturally resistant to poison, they have no qualms about hunting with "
 "poisoned arrows. These two foot long shafts, tipped with a potent poison, "
 "have been known to slay many kinds of prey."
@@ -2536,7 +2534,7 @@ msgstr ""
 #. [unit_type]: id=EE Naga Guardian, race=naga
 #. [unit_type]: id=EE Naga Warden, race=naga
 #: Mystery_Campaign/units/nagas/Naga_Guardian.cfg:27
-#: Mystery_Campaign/units/nagas/Naga_Warden.cfg:26
+#: Mystery_Campaign/units/nagas/Naga_Warden.cfg:27
 msgid ""
 "These heavy fighters are the elite guards of the naga. They are slower and "
 "more heavily armored than most naga and wield huge maces which they use to "
@@ -2547,6 +2545,15 @@ msgstr ""
 #. [unit_type]: id=EE Naga Hunter, race=naga
 #: Mystery_Campaign/units/nagas/Naga_Hunter.cfg:5
 msgid "Naga Hunter"
+msgstr ""
+
+#. [unit_type]: id=EE Naga Hunter, race=naga
+#: Mystery_Campaign/units/nagas/Naga_Hunter.cfg:20
+msgid ""
+"Naga Hunters are Naga who are skilled at hunting with a bow. Since the naga "
+"are naturally resistant to poison, they have no qualms about hunting with "
+"poisoned arrows. These two foot long shafts, tipped with a potent poison, "
+"have been known to slay many kinds of prey."
 msgstr ""
 
 #. [unit_type]: id=EE Naga Longbowman, race=naga, description=
@@ -2560,7 +2567,7 @@ msgid "Naga Sentinel"
 msgstr ""
 
 #. [unit_type]: id=EE Naga Sentinel, race=naga
-#: Mystery_Campaign/units/nagas/Naga_Sentinel.cfg:27
+#: Mystery_Campaign/units/nagas/Naga_Sentinel.cfg:28
 msgid ""
 "The heavy fighters are the elite guards of the naga. They are slower and "
 "more heavily armored than most naga and wield huge maces which they use to "
@@ -2573,6 +2580,18 @@ msgstr ""
 msgid "Naga Warden"
 msgstr ""
 
+#. [unit_type]: id=EE Wose Shaman, race=wose
+#: Mystery_Campaign/units/wose/Shaman.cfg:5
+msgid "Wose Shaman"
+msgstr ""
+
+#. [unit_type]: id=EE Wose Shaman, race=wose
+#: Mystery_Campaign/units/wose/Shaman.cfg:25
+msgid ""
+"These woses are able to command forest plants such as vines and creepers to "
+"hinder their enemies."
+msgstr ""
+
 #. [damage]: id=EE_vigilance
 #: Mystery_Campaign/utils/abilities.cfg:6
 #: Mystery_Campaign/utils/abilities.cfg:7
@@ -2581,104 +2600,107 @@ msgstr ""
 
 #. [damage]: id=EE_vigilance
 #: Mystery_Campaign/utils/abilities.cfg:8
-#: Mystery_Campaign/utils/abilities.cfg:10
-msgid ""
-"Vigilance:\n"
-"When this attack is used the attacker takes 50% less damage."
+#: Mystery_Campaign/utils/abilities.cfg:9
+msgid "When this attack is used the attacker takes 50% less damage."
+msgstr ""
+
+#. [damage]: id=EE_evade
+#: Mystery_Campaign/utils/abilities.cfg:18
+#: Mystery_Campaign/utils/abilities.cfg:19
+msgid "evade"
 msgstr ""
 
 #. [damage]: id=EE_evade
 #: Mystery_Campaign/utils/abilities.cfg:20
 #: Mystery_Campaign/utils/abilities.cfg:21
-msgid "evade"
-msgstr ""
-
-#. [damage]: id=EE_evade
-#: Mystery_Campaign/utils/abilities.cfg:22
-#: Mystery_Campaign/utils/abilities.cfg:24
 msgid ""
-"Evade:\n"
 "This unit can evade enemy attack and takes one third less damage while using "
 "this weapon."
 msgstr ""
 
+#. [attacks]: id=shock
+#: Mystery_Campaign/utils/abilities.cfg:30
+#: Mystery_Campaign/utils/abilities.cfg:31
+msgid "shock"
+msgstr ""
+
+#. [attacks]: id=shock
+#: Mystery_Campaign/utils/abilities.cfg:32
+#: Mystery_Campaign/utils/abilities.cfg:33
+msgid ""
+"When this attack is used on offense, the opponent will retaliate with one "
+"less strike than normally, to a minimum of one strike."
+msgstr ""
+
 #. [damage]: id=charge
-#: Mystery_Campaign/utils/abilities.cfg:54
-#: Mystery_Campaign/utils/abilities.cfg:57
+#: Mystery_Campaign/utils/abilities.cfg:46
+#: Mystery_Campaign/utils/abilities.cfg:48
 msgid "counter-attack"
 msgstr ""
 
 #. [damage]: id=charge
-#: Mystery_Campaign/utils/abilities.cfg:55
-#: Mystery_Campaign/utils/abilities.cfg:58
-msgid ""
-"Counter-attacks:\n"
-"When used defensively, this attack deals double damage to the target."
+#: Mystery_Campaign/utils/abilities.cfg:47
+#: Mystery_Campaign/utils/abilities.cfg:49
+msgid "When used defensively, this attack deals double damage to the target."
 msgstr ""
 
-#: Mystery_Campaign/utils/abilities.cfg:67
+#: Mystery_Campaign/utils/abilities.cfg:57
 msgid ""
 "This unit counter-attacks effectively income hits, causing vaste damage on "
 "the unprotected target"
 msgstr ""
 
 #. [chance_to_hit]: id=inverse
-#: Mystery_Campaign/utils/abilities.cfg:242
+#: Mystery_Campaign/utils/abilities.cfg:228
 msgid "inverse"
 msgstr ""
 
 #. [chance_to_hit]: id=inverse
-#: Mystery_Campaign/utils/abilities.cfg:243
+#: Mystery_Campaign/utils/abilities.cfg:229
 msgid ""
-"Inverse:\n"
 "This attack's chance to hit is equal to the defensive ability of the target "
 "on its current terrain."
 msgstr ""
 
 #. [petrifies]: id=escape
-#: Mystery_Campaign/utils/abilities.cfg:257
-#: Mystery_Campaign/utils/abilities.cfg:259
-msgid ""
-"Prey Crush:\n"
-"When this attack hits, the combat ends. Can only be used at offense."
+#: Mystery_Campaign/utils/abilities.cfg:242
+#: Mystery_Campaign/utils/abilities.cfg:243
+msgid "When this attack hits, the combat ends. Can only be used at offense."
 msgstr ""
 
-#: Mystery_Campaign/utils/abilities.cfg:288
+#: Mystery_Campaign/utils/abilities.cfg:271
 msgid "ferocious"
 msgstr ""
 
-#: Mystery_Campaign/utils/abilities.cfg:289
-#: Mystery_Campaign/utils/abilities.cfg:291
+#: Mystery_Campaign/utils/abilities.cfg:272
+#: Mystery_Campaign/utils/abilities.cfg:273
 msgid ""
-"Ferocious:\n"
 "This unit battles with such vigor that it always has at least a 60% chance "
 "to hit."
 msgstr ""
 
-#: Mystery_Campaign/utils/abilities.cfg:305
+#: Mystery_Campaign/utils/abilities.cfg:286
 msgid "protection"
 msgstr ""
 
-#: Mystery_Campaign/utils/abilities.cfg:306
+#: Mystery_Campaign/utils/abilities.cfg:287
 msgid ""
-"Protection:\n"
 "Adjacent units will receive a +20% bonus to all resistances (up to a maximum "
 "of 50%)."
 msgstr ""
 
-#: Mystery_Campaign/utils/abilities.cfg:316
+#: Mystery_Campaign/utils/abilities.cfg:299
 msgid ""
 "This unit can protect those units around them, granting them extra "
 "resistances."
 msgstr ""
 
-#: Mystery_Campaign/utils/abilities.cfg:323
+#: Mystery_Campaign/utils/abilities.cfg:306
 msgid "terror"
 msgstr ""
 
-#: Mystery_Campaign/utils/abilities.cfg:324
+#: Mystery_Campaign/utils/abilities.cfg:307
 msgid ""
-"Terror:\n"
 "This unit can frighten enemy units that are next to it, making them fight "
 "worse.\n"
 "\n"
@@ -2688,44 +2710,43 @@ msgid ""
 "their levels."
 msgstr ""
 
-#: Mystery_Campaign/utils/abilities.cfg:369
+#: Mystery_Campaign/utils/abilities.cfg:351
 msgid ""
 " The terror skill of this unit scare ennemy units next to it so they deal "
 "less damage in combat, though this only applies to units of lower level."
 msgstr ""
 
-#: Mystery_Campaign/utils/abilities.cfg:372
+#: Mystery_Campaign/utils/abilities.cfg:354
 msgid ""
 "This unit darkens it surrounding area, negating the lawful units their day "
 "bonus and removing the malus for the chaotic units"
 msgstr ""
 
-#: Mystery_Campaign/utils/abilities.cfg:380
+#: Mystery_Campaign/utils/abilities.cfg:362
 msgid "darkens"
 msgstr ""
 
-#: Mystery_Campaign/utils/abilities.cfg:381
+#: Mystery_Campaign/utils/abilities.cfg:363
 msgid "female^darkens"
 msgstr ""
 
-#: Mystery_Campaign/utils/abilities.cfg:382
+#: Mystery_Campaign/utils/abilities.cfg:364
 msgid ""
-"Darkens:\n"
 "This unit deluminates the surrounding area, making chaotic units fight "
 "better, and lawful units fight worse.\n"
 "\n"
-"Any units adjacent to this unit will fight as if it were dawn when it is day."
+"Any units adjacent to this unit will fight as if it were dawn when it is day "
+"and as if it is night during twilight."
 msgstr ""
 
-#: Mystery_Campaign/utils/abilities.cfg:394
-#: Mystery_Campaign/utils/abilities.cfg:399
+#: Mystery_Campaign/utils/abilities.cfg:375
+#: Mystery_Campaign/utils/abilities.cfg:379
 msgid "cavestalk"
 msgstr ""
 
-#: Mystery_Campaign/utils/abilities.cfg:395
-#: Mystery_Campaign/utils/abilities.cfg:400
+#: Mystery_Campaign/utils/abilities.cfg:376
+#: Mystery_Campaign/utils/abilities.cfg:380
 msgid ""
-"Cavestalk:\n"
 "This unit can hide in caves, and remain undetected by its enemies.\n"
 "\n"
 "Enemy units cannot see or attack this unit when it is in caves, except for "
@@ -2733,7 +2754,7 @@ msgid ""
 "units next to this unit."
 msgstr ""
 
-#: Mystery_Campaign/utils/abilities.cfg:414
+#: Mystery_Campaign/utils/abilities.cfg:393
 msgid ""
 " In underground terrain (except lit underground), this unit's ambush skill "
 "renders it invisible to enemies unless it is immediately adjacent or has "
@@ -2819,6 +2840,6 @@ msgid ""
 msgstr ""
 
 #. [message]
-#: Mystery_Campaign/utils/utils.cfg:322
+#: Mystery_Campaign/utils/random_factions.cfg:592
 msgid "Oh, it's hopeless! I surrender!"
 msgstr ""

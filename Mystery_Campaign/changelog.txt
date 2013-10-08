@@ -84,5 +84,8 @@
 	fire > cold (enchantress)
 	cold > arcane (wizard)
 	better counter for undead
+	
+1.6.5
+ - added Dwarvish Alchemist
 
 ### trewe sjrs456 at yahoo dot fr ###
